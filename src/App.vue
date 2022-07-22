@@ -1,30 +1,35 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <div>
+    <!-- <nav>
+      <router-link to="/">Estudios</router-link> |
+      <router-link to="/experiencia">Experiencia</router-link>
+    </nav> -->
+    <TheMenu></TheMenu>
+    <router-view/>
+    
+  </div>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+<style>
+body{
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serifs !important;
+  background: rgb(221, 137, 233);
+  background: linear-gradient(
+    34deg,
+    rgba(221, 137, 233, 1) 0%,
+    rgba(113, 216, 218, 1) 49%,
+    rgba(202, 245, 254, 1) 100%
+  );
+}
+h1{
+  color: rgb(56, 73, 146);
 }
 
-nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
 </style>
+
+<script setup>
+import TheMenu from "./components/TheMenu.vue";
+require ('@/assets/style/reset.css');
+
+</script>

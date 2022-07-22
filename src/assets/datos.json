@@ -1,0 +1,42 @@
+{
+    "instituciones": {
+        "inst1":{
+            "nombre": "Universidad de Vigo",
+            "ciudad": "Pontevedra",
+            "pais":"España",
+            "estudios":"Grado en Comunicación Audiovisual",
+            "años": "2015-2019"
+        },
+        "inst2":{
+            "nombre": "Universidad de Vigo",
+            "ciudad": "Pontevedra",
+            "pais":"España",
+            "estudios":"Máster en Dirección de Arte en Publicidad",
+            "años": "2019-2020"
+        }
+    },
+    "empresas": {
+        "emp1": {
+            "nombre": "Cadena Ser",
+            "ciudad": "Pontevedra",
+            "pais": "España",
+            "año" : "2019",
+            "puesto" : "Redacción de noticias"
+        },
+        "emp2": {
+            "nombre": "Editorial Galaxia",
+            "ciudad": "Vigo",
+            "pais": "España",
+            "año" : "2020",
+            "puesto" : "Maquetación y diseño gráfico"
+        },
+        "emp3": {
+            "nombre": "Cersia",
+            "ciudad": "Santiago de Compostela",
+            "pais": "España",
+            "años" : "2021-2022",
+            "puesto" : "Ni idea"
+        }
+
+    }
+}
